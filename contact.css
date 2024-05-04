@@ -1,0 +1,48 @@
+header {
+  position: static;
+}
+
+header a {
+  color: aqua;
+}
+
+header nav a:hover {
+  color: aqua;
+}
+
+#contact-form {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.form-row {
+  margin: 16px;
+}
+
+select,
+textarea,
+input[type="text"] {
+  padding: 12px;
+  width: 100%;
+  border: 1px solid rgb(100, 10, 230);
+  border-radius: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  resize: vertical;
+}
+
+textarea {
+  height: 20;
+}
+
+button {
+  background-color: aqua;
+  color: black;
+  padding: 12 24px;
+  font-size: 60px;
+  border-radius: 16px;
+  float: right;
+  clear: both;
+  box-shadow: rgba(100, 12, 96, 6.5) 20px 40px 40px;
+}

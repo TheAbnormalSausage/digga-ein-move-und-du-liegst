@@ -1,0 +1,50 @@
+body {
+  font-family: "Honk", system-ui;
+}
+
+#logo {
+  font-family: "Salsa";
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+header nav a {
+  padding: 12px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  list-style: none;
+}
+
+footer li {
+  width: 80px;
+  height: 80px;
+  margin: 0 50px;
+}
+
+footer img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAVEL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Salsa&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <a id="logo" href="index.html">travel</a>
+      <nav>
+        <ul>
+          <li><a href="/places.html">places</a></li>
+          <li><a href="/contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form id="contact-form"
+       action="https://formspree.io/f/xvoelvbv"
+       method="POST"
+      >
+       
+        <div class="form-row">
+          <label for="name">your name</label>
+          <input type="text" id="name" />
+          <div class="form-row">
+            <label for="mountains"></label>
+            <select name="mountains" id="mountains">
+              <option disabled selected value>-- choose mountain --</option>
+              <option value="matterhorn">matterhorn</option>
+              <option value="everest">everest</option>
+              <option value="mountmckinley">mountmckinley</option>
+            </select>
+          </div>
+          <label>when do you wanna go ?</label>
+          <input type="radio" id="summer" value="summer" name="season">
+         <label for="summer">summer</label>
+          <input type="radio" id="autumn" value="autumn" name="season">
+          <label for="autumn">autumn</label>
+          <input type="radio" id="winter" value="winter" name="season">
+          <label for="winter">winter</label>
+           <input type="radio" id="spring" value="spring" name="season">
+           <label for="spring">spring</label>
+        </div>
+      <div class="form-row">
+      <label for="message">your message</label>
+      <textarea name="message" id="message"></textarea>
+      </div>
+      <button type="submit">send</button>
+      </form>
+    <main>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com">
+            <img src="/images/facebook.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com">
+            <img src="/images/insta.png" alt="" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
